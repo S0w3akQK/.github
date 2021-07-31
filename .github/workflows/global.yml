@@ -1,0 +1,17 @@
+name: Global Action
+
+on:
+  push:
+
+jobs:
+
+  testing:
+    name: global
+    runs-on: ubuntu-latest
+
+    steps:
+
+    - name: Hello
+      run: |
+        echo "hello world"
+
